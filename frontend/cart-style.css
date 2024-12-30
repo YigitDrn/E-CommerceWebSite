@@ -1,0 +1,134 @@
+.cart-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.cart-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+/* Ürün Listesi Stilleri */
+.cart-items {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cart-item {
+    display: grid;
+    grid-template-columns: auto 2fr 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.quantity-controls input {
+    width: 50px;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.quantity-btn {
+    background: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    background: #ff4444;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Sipariş Özeti Stilleri */
+.cart-summary {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.total {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.coupon-section {
+    margin: 1.5rem 0;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.coupon-section input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.apply-coupon {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkout-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .cart-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .cart-item {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .cart-item img {
+        margin: 0 auto;
+    }
+} 
