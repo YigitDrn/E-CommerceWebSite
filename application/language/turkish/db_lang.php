@@ -1,0 +1,23 @@
+<?php
+$lang['db_invalid_connection_str'] = 'Veritabanı ayarları belirtilen bağlantı dizesine göre belirlenemiyor.';
+$lang['db_unable_to_connect'] = 'Veritabanına bağlanılamıyor. Lütfen bağlantı ayarlarınızı kontrol edin.';
+$lang['db_unable_to_select'] = 'Belirtilen veritabanı seçilemiyor: %s';
+$lang['db_unable_to_create'] = 'Belirtilen veritabanı oluşturulamıyor: %s';
+$lang['db_invalid_query'] = 'Gönderilen sorgu geçersiz.';
+$lang['db_must_set_table'] = 'Sorgu için veritabanı tablosu belirtilmeli.';
+$lang['db_must_use_set'] = 'Kayıt güncellemek için "set" metodu kullanılmalı.';
+$lang['db_must_use_where'] = 'Update sorguları "where" şartı olmadan çalıştırılamaz.';
+$lang['db_del_must_use_where'] = 'Delete sorguları "where" şartı olmadan çalıştırılamaz.';
+$lang['db_field_param_missing'] = 'Tablo alanlarını çekmek için tablo adı parametre olarak verilmeli.';
+$lang['db_unsupported_function'] = 'Bu özellik kullandığınız veritabanında bulunmuyor.';
+$lang['db_transaction_failure'] = 'İşlem hatası: Rollback gerçekleştirildi.';
+$lang['db_unable_to_drop'] = 'Belirtilen veritabanı silinemiyor.';
+$lang['db_unsuported_feature'] = 'Kullandığınız veritabanı platformu bu özelliği desteklemiyor.';
+$lang['db_unsuported_compression'] = 'Seçtiğiniz dosya sıkıştırma formatı sunucu tarafından desteklenmiyor.';
+$lang['db_filepath_error'] = 'Belirtilen dosya yoluna veri yazılamıyor.';
+$lang['db_invalid_cache_path'] = 'Belirtilen önbellek yolu geçersiz veya yazılamıyor.';
+$lang['db_table_name_required'] = 'Bu işlem için bir tablo adı gerekli.';
+$lang['db_column_name_required'] = 'Bu işlem için bir kolon adı gerekli.';
+$lang['db_column_definition_required'] = 'Bu işlem için bir kolon tanımlaması gerekli.';
+$lang['db_unable_to_set_charset'] = 'Veritabanı bağlantı karakter seti ayarlanamıyor: %s';
+$lang['db_error_heading'] = 'Veritabanı Hatası';
